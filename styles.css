@@ -13,22 +13,29 @@ body {
 }
 
 .component-block {
-    background: url('assets/images/bg.jpg');
-    background-position: center;
     min-height: 500px;
     width: 100%;
 }
+
 .outer-block {
     background-color: #f2e8db;
-    border-bottom: 20px solid #ce8b70;
     display: inline-block;
     height: auto;
     width: 100%;
 }
 
+.header-block {
+    background: url('assets/images/bg.jpg');
+    background-position: center;
+}
+
+.header-block .outer-block {
+    border-bottom: 20px solid #ce8b70;
+}
+
 .inside-block {
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 10px;
     width: 820px;
 }
 
@@ -43,7 +50,6 @@ body {
     background: #ce8b70;
     display: inline-block;
     height: 80px;
-    margin-left: 20px;
     margin-top: 65px;
     position: relative;
     width: 280px;
