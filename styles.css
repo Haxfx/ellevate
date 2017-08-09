@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: AvanirNext;
+    src: url(assets/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+body {
+    background-color: #f2e8db;
+    color: #282828;
+    font-family: AvanirNext, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.component-block {
+    background: url('assets/images/bg.jpg');
+    background-position: center;
+    min-height: 500px;
+    width: 100%;
+}
+.outer-block {
+    background-color: #f2e8db;
+    border-bottom: 20px solid #ce8b70;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+
+.inside-block {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 820px;
+}
+
+.logo-shape {
+    display: block;
+    float: left;
+    height: 65px;
+    width: 330px;
+}
+
+#base {
+    background: #ce8b70;
+    display: inline-block;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 65px;
+    position: relative;
+    width: 280px;
+}
+#base:before {
+    border-bottom: 70px solid #ce8b70;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -70px;
+    width: 0;
+}
+
+.logo{
+    background: url('assets/images/logo.png');
+    background-size: 255px 57px;
+    height: 57px;
+    margin: 10px;
+    width: 255px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #282828;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li:nth-child(n+2) {
+    border-left: 2px solid #ce8b70;
+}
