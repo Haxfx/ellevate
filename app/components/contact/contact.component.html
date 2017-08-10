@@ -1,6 +1,41 @@
-<h1>
-  {{pageContent.title}}
-</h1>
-<p>
-  {{pageContent.content}}
-</p>
+<div class="component-block contact-block">
+  <div class="background-block"></div>
+  <div class="outer-block contact-block">
+    <div class="inside-block">
+      <div class="float-block">
+        <h1>
+          {{pageContent.title}}
+        </h1>
+        <p>
+          {{pageContent.content}}
+        </p>
+      </div>
+      <div class="float-block">
+        <div class="form-block">
+          <h2>Contact opnemen</h2>
+          <form action="">
+            <table>
+              <tr>
+                <input type="text" placeholder="Voornaam" />
+              </tr>
+              <tr>
+                <input type="text" placeholder="Achternaam" />
+              </tr>
+              <tr>
+                <input type="text" placeholder="E-mailadres" />
+              </tr>
+              <tr>
+                <input type="text" placeholder="Telefoon nummer" />
+              </tr>
+              <tr>
+                <label for="tijd">Wanneer ben je het best te bereiken?</label>
+                <input type="text" name="tijd"/>
+              </tr>
+            </table>
+            </form>
+        </div>
+      </div>
+    </div>
+    <iframe class="maps-block" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzGnvuMPEjOuIN5xdxrdx5xFAqHryYV-M&q=Rotterdam" allowfullscreen></iframe>
+  </div>
+</div>
