@@ -6,7 +6,7 @@
 
 body {
     background-color: #f2e8db;
-    color: #282828;
+    color: #22252b;
     font-family: AvanirNext, Arial, Helvetica, sans-serif;
     line-height: 20px;
     margin: 0;
@@ -47,7 +47,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: inline-block;
-    border-bottom: 35px solid #282828;
+    border-bottom: 35px solid #22252b;
 }
 
 .overmij-block {
@@ -77,14 +77,18 @@ h1 {
 .subtitle-block {
     border: 2px solid #ce8b70;
     clear: both;
+    color: #22252b;
     display: inline-block;
     font-size: 15px;
     margin: 0 auto;
-    margin-top: 250px;
     padding: 10px 20px;
     text-transform: uppercase;
     width: 315px;
     text-shadow: 1px 1px 6px #DCDCDC, 1px 1px 5px #DCDCDC;
+}
+
+.fill {
+    margin: 170px auto;
 }
 
 .bottom-block {
@@ -124,7 +128,7 @@ h1 {
 .logo-shape {
     display: block;
     float: left;
-    height: 65px;
+    height: 74px;
     width: 344px;
 }
 
@@ -132,7 +136,7 @@ h1 {
     background: #ce8b70;
     display: inline-block;
     height: 80px;
-    margin-top: 65px;
+    margin-top: 75px;
     position: relative;
     width: 280px;
 }
@@ -156,20 +160,43 @@ h1 {
     width: 255px;
 }
 
+.navbar-default {
+    background-color: #f2e8db;
+    font-family: AvanirNext, Arial, Helvetica, sans-serif;
+}
+
+.navbar-default {
+    border-bottom: 30px solid #ce8b70;
+}
+
+.navbar-collapse {
+    margin: 0 auto !important;
+    width: 1000px;
+}
+
+.navbar-nav {
+    margin: 15px 10% 0 0;
+}
+
+.nav li a {
+    padding: 10px 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    margin-top: 15px;
 }
 
-li {
-    float: left;
+li .page-scroll{
+    color: #22252b !important;
 }
 
 li a {
     display: block;
-    color: #282828;
+    color: #22252b;
     text-align: center;
     padding: 17px 16px;
     text-decoration: none;
@@ -224,6 +251,14 @@ li:nth-child(n+2) {
     width: 60px;
 }
 
+#homeHeading {
+    color: rgba(206, 139, 112, 1);
+    font-family: AvanirNext, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+}
+
 .collapse-block .scroll-down:before, .collapse-block .scroll-down:after {
     background-color: rgba(206, 139, 112, 1);
 }
@@ -232,4 +267,14 @@ li:nth-child(n+2) {
     background-color: rgba(255, 255, 255, 0.5);
     margin: 50px auto;
     padding: 10px;
+}
+
+.bg-primary {
+    background: #22252b;
+}
+
+@media (max-width: 768px){
+    .navbar-collapse {
+        width: auto;
+    }
 }
