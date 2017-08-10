@@ -8,8 +8,15 @@ body {
     background-color: #f2e8db;
     color: #282828;
     font-family: AvanirNext, Arial, Helvetica, sans-serif;
+    line-height: 20px;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    border-bottom: 2px solid white;
+    line-height: 30px;
+    width: 100%;
 }
 
 .component-block {
@@ -17,17 +24,38 @@ body {
 }
 
 .outer-block {
-    background-color: #f2e8db;
     display: inline-block;
     height: auto;
     width: 100%;
 }
 
+.menu-block {
+    background-color: #f2e8db;
+}
+
 .header-block {
     background: url('assets/images/bg.jpg');
     background-position: center;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 750px;
+}
+
+.birkman-block {
+    background: url('assets/images/bg2.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inline-block;
+    border-bottom: 35px solid #282828;
+}
+
+.overmij-block {
+    background: linear-gradient(rgba(125,86,82,0.35),rgba(199,175,140,0.35)),url(assets/images/bg3.jpg) #333 fixed no-repeat center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
 }
 
 .inner-block {
@@ -42,7 +70,7 @@ body {
     font-size: 55px;
     margin: 0 auto;
     margin-top: 180px;
-    padding: 10px 20px;
+    padding: 25px 20px;
     text-transform: uppercase;
 }
 
@@ -152,12 +180,12 @@ li:nth-child(n+2) {
 }
 
 
-.scroll-right{
+.scroll-down{
   position: relative;
   padding: 30px;
 }
  
-.scroll-right:before {
+.scroll-down:before {
   content: '';
   position: absolute;
   top: 12%;
@@ -171,7 +199,7 @@ li:nth-child(n+2) {
   transform: skew(0deg, -30deg);
 }
 
-.scroll-right:after {
+.scroll-down:after {
   content: '';
   position: absolute;
   top: 12%;
@@ -185,3 +213,23 @@ li:nth-child(n+2) {
   -o-transform: skew(0deg, 30deg);
   transform: skew(0deg, 30deg);
 }​{}
+
+.short-list {
+    display: block;
+}
+
+.collapse-block {
+    height: 20px;
+    margin: 0 auto;
+    width: 60px;
+}
+
+.collapse-block .scroll-down:before, .collapse-block .scroll-down:after {
+    background-color: rgba(206, 139, 112, 1);
+}
+
+.inside-background-block {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    padding: 10px;
+}
