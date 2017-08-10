@@ -20,6 +20,7 @@ h1 {
 }
 
 .component-block {
+    height: 300px;
     width: 100%;
 }
 
@@ -271,6 +272,10 @@ li:nth-child(n+2) {
 
 .bg-primary {
     background: #22252b;
+}
+
+.bd-primary {
+    border-bottom: 20px solid #22252b;
 }
 
 @media (max-width: 768px){

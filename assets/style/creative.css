@@ -52,7 +52,7 @@ p {
 .text-faded {
   color: rgba(34, 37, 43, 1);
 }
-section {
+.container {
   padding: 100px 0;
 }
 aside {
@@ -127,7 +127,6 @@ aside {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #CE8B70;
