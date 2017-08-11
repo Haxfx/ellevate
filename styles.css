@@ -182,6 +182,16 @@ h1 {
     width: 344px;
 }
 
+.navbar-toggle:hover {
+    background-color: #ce8b70 !important;
+    color: white !important;
+}
+
+.navbar-toggle:active {
+    background-color: #ce8b70 !important;
+    color: white !important;
+}
+
 #base {
     background: #ce8b70;
     display: inline-block;
@@ -435,6 +445,17 @@ li:nth-child(n+2) {
         width: auto;
     }
 
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-default {
+        border-bottom: 10px solid #ce8b70;
+    }
+    li:nth-child(n+2) {
+        border: none;
+    }
+
     .circle {
         text-align: center;
         margin: 0 auto;
@@ -467,13 +488,14 @@ li:nth-child(n+2) {
     }
 
     #base {
-    background: #ce8b70;
-    display: inline-block;
-    height: 40px;
-    margin-top: 75px;
-    position: relative;
-    width: 150px;
+        background: #ce8b70;
+        display: inline-block;
+        height: 40px;
+        margin-top: 45px;
+        position: relative;
+        width: 150px;
     }
+
     #base:before {
         border-bottom: 35px solid #ce8b70;
         border-left: 75px solid transparent;
@@ -491,7 +513,7 @@ li:nth-child(n+2) {
         padding: 0 8% 0 0;
         width: 50%;
         float: none;
-        height: 19px;
+        height: 29px;
     }
 
     .logo-widescreen {
