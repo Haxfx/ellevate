@@ -10,6 +10,15 @@
         event.preventDefault();
     });
 
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('.scroll-block').on('click', function(event) {
+        var $element = $(this);
+        $element.parent().toggle();
+        console.log('asdfsdf');
+        var parent = $element.parent().parent().find('.hide-first').slideToggle();
+        console.log(parent);
+    });
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
