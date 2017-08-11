@@ -13,6 +13,16 @@ body {
     padding: 0;
 }
 
+.logo-widescreen {
+    display: block;
+}
+
+.logo-smartphone {
+    display: none;
+    height: 19px;
+    width: 150px;
+}
+
 h1 {
     border-bottom: 2px solid white;
     line-height: 30px;
@@ -410,14 +420,19 @@ li:nth-child(n+2) {
 .container-padding {
     padding: 0 0 50px 0;
 }
+@media (min-width: 769px){
+    .logo-widescreen {
+        display: block;
+    }
+
+    .logo-smartphone {
+        display: none;
+    }
+}
 
 @media (max-width: 768px){
     .navbar-collapse {
         width: auto;
-    }
-
-    .footer-container {
-        height: 150px;
     }
 
     .circle {
@@ -474,9 +489,17 @@ li:nth-child(n+2) {
         display: block;
         text-align: center;
         padding: 0 8% 0 0;
-        width: 100%;
+        width: 50%;
         float: none;
-        height: 100px;
+        height: 19px;
+    }
+
+    .logo-widescreen {
+        display: none;
+    }
+
+    .footer-container {
+        height: 150px;
     }
 
     .logo{
