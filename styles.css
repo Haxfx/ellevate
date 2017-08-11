@@ -20,7 +20,7 @@ h1 {
 }
 
 .component-block {
-    height: 400px;
+    height: 450px;
     width: 100%;
 }
 
@@ -45,6 +45,15 @@ h1 {
 .birkman-block {
     background: url('assets/images/bg2.jpg');
     background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inline-block;
+    border-bottom: 35px solid #22252b;
+}
+
+.referenties-block {
+    background: url('assets/images/bg3.jpg');
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: inline-block;
@@ -276,6 +285,56 @@ li:nth-child(n+2) {
 
 .bd-primary {
     border-bottom: 20px solid #22252b;
+}
+
+.contact-block {
+    background-color: #22252b;
+    color: white;
+}
+
+.maps-block {
+    width: 100%;
+    height: 450px;
+}
+
+.small-container{
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.copyright-container {
+    padding: 10px 0;
+    margin-left: 25%;
+    width: 100%;
+}
+
+.social-container {
+    width: 50%;
+    float: right;
+}
+
+.social-icon{
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-right: 10px;
+}
+
+.twitter-icon {
+    background-image: url(assets/images/twitter.png);
+}
+
+.instagram-icon {
+    background-image: url(assets/images/instagram.png);
+}
+
+.facebook-icon {
+    background-image: url(assets/images/facebook.png);
+}
+
+.linkedin-icon {
+    background-image: url(assets/images/linkedin.png);
 }
 
 @media (max-width: 768px){
