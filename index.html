@@ -272,26 +272,52 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Contact</h2>
-                    <hr class="primary">
-                        <p>
-                            Contactformulier
-                        </p>
-                        <p>
-                            Voornaam:
-                        </p>
-                        <p>
-                            Achternaam:
-                        </p>
-                        <p>
-                            E-mailadres:
-                        </p>
-                        <p>
-                            Telefoonnummer:
-                        </p>
-                        <p>
-                            Wanneer ben je het best te bereiken: 
-                        </p>
-                    </hr>
+                    <div class="inner contact">
+                        <!-- Form Area -->
+                        <div class="contact-form">
+                            <!-- Form -->
+                            <form id="contact-us" method="post" action="#">
+                                <!-- Left Inputs -->
+                                <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                                    <!-- Voornaam -->
+                                    <input type="text" name="voornaam" id="voornaam" required="required" class="form" placeholder="Voornaam" />
+                                    <!-- Achternaam -->
+                                    <input type="text" name="achternaam" id="achternaam" required="required" class="form" placeholder="Achternaam" />
+                                    <!-- Email -->
+                                    <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                                </div><!-- End Left Inputs -->
+                                <!-- Right Inputs -->
+                                <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                                    <!-- Telefoonnummer -->
+                                    <input type="tel" name="tel" id="tel" required="required" class="form" placeholder="Telefoonnummer" />
+                                    <!-- Bereikbaarheid -->
+                                    <textarea name="message" id="message" class="form textarea"  placeholder="Wanneer ben je het best te bereiken:"></textarea>
+                                </div><!-- End Right Inputs -->
+                                <!-- Bottom Submit -->
+                                <div class="relative fullwidth col-xs-12">
+                                    <!-- Send Button -->
+                                    <button type="submit" id="submit" name="submit" class="form-btn semibold">Verzenden</button> 
+                                </div><!-- End Bottom Submit -->
+                                <!-- Clear -->
+                                <div class="clear"></div>
+                            </form>
+
+                            <!-- Your Mail Message -->
+                            <div class="mail-message-area">
+                                <!-- Message -->
+                                <div class="alert gray-bg mail-message not-visible-message">
+                                    <strong>Thank You !</strong> Your email has been delivered.
+                                </div>
+                            </div>
+                        </div><!-- End Contact Form Area -->
+                    </div><!-- End Inner -->
+                </div>
+            </div>
+        </div>
+        <div class="container small-container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h3>Anders</h3>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -305,7 +331,7 @@
         </div>
         <iframe class="maps-block" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzGnvuMPEjOuIN5xdxrdx5xFAqHryYV-M&q=Rotterdam"
             allowfullscreen></iframe>
-        <div class="container small-container">
+        <div class="container footer-container">
             <div class="row text-center">
                 <div class="col-lg-4 text-center copyright-container">
                     Copyright &copy; Ellevate 2017
