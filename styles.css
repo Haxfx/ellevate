@@ -459,6 +459,7 @@ li:nth-child(n+2) {
     .circle {
         text-align: center;
         margin: 0 auto;
+        padding-top: 20px;
     }
 
     .container {
@@ -472,6 +473,10 @@ li:nth-child(n+2) {
 
     .small-container {
         height: 200px;
+    }
+
+    .section-heading {
+        margin-top: 30px;
     }
 
     .copyright-container {
