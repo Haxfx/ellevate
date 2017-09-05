@@ -312,10 +312,12 @@ li:nth-child(n+2) {
 }
 
 #homeHeading {
+    background: rgba(255, 255, 255, 0.5);
     color: rgba(206, 139, 112, 1);
     font-family: AvanirNext, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
     font-weight: 400;
-    background: rgba(255, 255, 255, 0.5);
+    line-height: 1em;
     padding: 30px;
 }
 
@@ -561,7 +563,6 @@ li:nth-child(n+2) {
 
   .mail-message{
     width: 100%;
-    background:rgba(255,255,255, 0.8) !important;
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
     transition: all 0.7s;
