@@ -31,7 +31,7 @@
         $sendmessage = wordwrap($sendmessage, 70);
 
         // Send mail by PHP Mail Function.
-        mail("carlijnkuenen@gmail.com", $subject, $sendmessage, $headers);
+        mail("carlijn@ellevate.nl", $subject, $sendmessage, $headers);
         echo true;
     } else {
         echo "Onjuist email adres";
